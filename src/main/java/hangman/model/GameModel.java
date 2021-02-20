@@ -129,7 +129,7 @@ public class GameModel {
 
     //method: setGameScore
     //purpose: set current game score
-    public void setGameScore(int gameScore) {
+    public void setGameScore(int gameScore) {    	
         this.gameScore = gameScore;
     }
     
