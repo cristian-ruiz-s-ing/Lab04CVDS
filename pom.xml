@@ -22,6 +22,57 @@
     	<maven.compiler.source>1.8</maven.compiler.source>
   	</properties>
   	<dependencies>
+        <dependencyManagement>
+          <dependencies>
+            <dependency>
+              <groupId>javax.inject</groupId>
+              <artifactId>javax.inject</artifactId>
+              <version>1</version>
+            </dependency>
+            <dependency>
+              <groupId>javax.inject</groupId>
+              <artifactId>javax.inject-tck</artifactId>
+              <version>1</version>
+            </dependency>
+            <dependency>
+              <groupId>aopalliance</groupId>
+              <artifactId>aopalliance</artifactId>
+              <version>1.0</version>
+            </dependency>
+            <dependency>
+              <groupId>com.google.guava</groupId>
+              <artifactId>guava</artifactId>
+              <version>27.1-jre</version>
+            </dependency>
+            <dependency>
+              <groupId>com.google.guava</groupId>
+              <artifactId>guava-testlib</artifactId>
+              <version>27.1-jre</version>
+            </dependency>
+            <dependency>
+              <groupId>org.ow2.asm</groupId>
+              <artifactId>asm</artifactId>
+              <version>9.0</version>
+            </dependency>
+            <dependency>
+              <groupId>junit</groupId>
+              <artifactId>junit</artifactId>
+              <version>4.13</version>
+              <scope>test</scope>
+            </dependency>
+            <dependency>
+              <groupId>com.google.truth</groupId>
+              <artifactId>truth</artifactId>
+              <version>0.45</version>
+              <scope>test</scope>
+            </dependency>
+            <dependency>
+              <groupId>com.google.code.findbugs</groupId>
+              <artifactId>jsr305</artifactId>
+              <version>3.0.1</version>
+      	    </dependency>
+    	  </dependencies>
+  	</dependencyManagement>
     	<dependency>
       		<groupId>junit</groupId>
       		<artifactId>junit</artifactId>
