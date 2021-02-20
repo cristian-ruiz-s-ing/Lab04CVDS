@@ -12,4 +12,7 @@ public class BonusScore implements GameScore {
 		}
 		return correctCount*10 - incorrectCount*5;
 	}
+	public int reset() {
+		return 0;
+	}
 }

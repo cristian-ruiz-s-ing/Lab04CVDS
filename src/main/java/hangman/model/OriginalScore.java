@@ -12,4 +12,7 @@ public class OriginalScore implements GameScore {
 		}
 		return 100-incorrectCount*10;
 	}
+	public int reset() {
+		return 100;
+	}
 }

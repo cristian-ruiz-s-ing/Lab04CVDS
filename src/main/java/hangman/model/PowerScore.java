@@ -15,4 +15,7 @@ public class PowerScore implements GameScore {
 		}
 		return (int) (Math.pow(5, correctCount) - incorrectCount*8);
 	}
+	public int reset() {
+		return 0;
+	}
 }

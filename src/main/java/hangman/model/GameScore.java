@@ -7,7 +7,9 @@ public interface GameScore {
 	 * @param incorrectCount puntos incorrectos obtenidos.
 	 * @return entrega puntaje de jugador.   
 	 */	  
-	public static int calculateScore(int correctCount, int incorrectCount){
-		return 0;
-	}
+	public int calculateScore(int correctCount, int incorrectCount) throws GameScoreException;
+		
+	
+	public int reset();	
+	
 }
